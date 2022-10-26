@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-transition-vl/static/css/main.22f5f5ca.css",
+    "main.js": "/test-transition-vl/static/js/main.4e3ca24a.js",
+    "index.html": "/test-transition-vl/index.html",
+    "main.22f5f5ca.css.map": "/test-transition-vl/static/css/main.22f5f5ca.css.map",
+    "main.4e3ca24a.js.map": "/test-transition-vl/static/js/main.4e3ca24a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22f5f5ca.css",
+    "static/js/main.4e3ca24a.js"
+  ]
+}
