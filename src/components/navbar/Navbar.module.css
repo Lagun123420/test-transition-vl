@@ -1,0 +1,99 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    font-family: "Roobert"
+}
+
+.navbar_title {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    /* font-style: italic; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18vh;
+    line-height: 97%;
+    color: #232323;
+    background-color: black;
+    transition: transform 0.5s, color 1s, height 0.5s;
+    height: 0px;
+    overflow: hidden;
+}
+
+.text_title {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    justify-content: center;
+    top: 38%;
+    font-size: 18vh;
+    color: blue;
+}
+
+.navbar_text_title_first {
+    transition-duration: .4s;
+    transition-property: top;
+    transition-timing-function: ease;
+    position: relative;
+    top: 100%;
+    font-size: 20vh;
+    font-weight: 400;
+    font-family: "Roxborough CF";
+    /* font: inherit; */
+}
+.navbar_text_title_second {
+    transition-duration: .3s;
+    transition-delay: 200ms;
+    transition-property: top;
+    position: relative;
+    top: 100%;
+    font-weight: 400;
+}
+.navbar_text_title_last {
+    transition-duration: .3s;
+    transition-delay: 300ms;
+    transition-property: top;
+    position: relative;
+    top: 100%;
+    font-weight: 400;
+}
+
+.active_text_title {
+    top: -25%;
+}
+
+.active_title {
+    color: #232323;
+    height: 14vh;
+    font-size: 22vh;
+}
+
+.navbar_links {
+    position: fixed;
+    top: 48.5%;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.active_links {
+    color: white;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: black;
+    transition-duration: 1s;
+}
+
+.active_link{
+    color: white;
+}
